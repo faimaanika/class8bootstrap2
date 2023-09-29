@@ -1,0 +1,780 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+/*****************************
+  *global css start here
+  ****************************/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+a, a:hover{
+  text-decoration: none;
+}
+
+/*****************************
+  *navber css start here
+  ****************************/
+
+.header-sectipon{
+  background: black !important;
+}
+
+.nav-link{
+  color: #a7a7a7 !important;
+  margin-left: 18px;
+}
+
+/*****************************
+  *banner-section css start here
+  ****************************/
+.banner-section{
+  width: 100%;
+  background: url(../img/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: Cover;
+  height: 95vh;
+}
+
+.banner-section .content{
+  height: 90vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.banner-section .content h1{
+ font-size: 50px;
+ text-transform: uppercase;
+ font-weight: 700;
+ color: white;
+}
+
+
+.banner-section .content h1 span{
+ font-weight: 300;
+ color: #f98837;
+}
+
+.banner-section .content h2 {
+   font-family: 'Raleway', sans-serif;
+   font-size: 36px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+   padding-right: 188px;
+}
+
+.banner-section .content .line{
+  width: 76px;
+  height: 3px;
+  background: white;
+  margin: 33px 0px;
+}
+
+
+.banner-section .content p{
+   font-family: 'Raleway', sans-serif;
+   font-size: 15px;
+  font-weight: 400;
+  color: white;
+  padding-right: 214px;
+}
+
+.banner-section .btn-primary{
+  background: transparent;
+  border-radius: 0;
+  border: 2px solid white;
+  padding: 8px 30px;
+   margin-top: 25px;
+}
+
+.banner-section .btn-primary:hover{
+  background: #f98837;
+  border-color: #f98837;
+}
+
+/*****************************
+  *form card css start here
+  ****************************/
+
+.main-form{
+    height: 90vh;
+  display: table-cell;
+  vertical-align: middle;
+    padding-top: 50px;
+}
+
+.main-form .card{
+  border-radius: 0;
+}
+
+
+
+.main-form .form-group{
+  margin-top: 22PX;
+  margin-bottom: 22px;
+  padding: 0px 20px;
+}
+
+
+.main-form .form-group .form-control{
+  border: none;
+  outline: 0;
+  border-bottom: 1px solid #a7a7a7;
+  border-radius: 0;
+
+}
+
+.first{
+  margin-top: 0px !important;
+}
+
+
+.card-header{
+  color: #f5f5f5;
+
+}
+
+
+.card-header h3{
+    font-size:20px;
+    font-weight: 700;
+    color: black;
+    text-transform: capitalize;
+}
+
+.card-header h3 span{
+  color: #f98837;
+}
+
+.card-footer{
+  background: #ff9b51;
+}
+
+
+.get-btn{
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+/*****************************
+  *social part css start here
+  ****************************/
+.social-part{
+  width: 100%;
+  background: url(../img/social-part.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 10vh;
+}
+.social-part .social-section{
+      margin-top: 20px;
+}
+
+
+.social-part .social-section h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    font-size: 21px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.social-part .social-section p{
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.icon{
+  margin-left: 127px;
+}
+
+.icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 50px;
+    margin-top: 25px;
+}
+.icon ul li i{
+  color: #a7a7a7;
+}
+
+/*****************************
+  *tab-section css start here
+  ****************************/
+.Tab-section{
+      background: #f5f5f5;
+      margin-top: 50px;
+}
+
+.d-flex{
+      margin-top: 225px;
+      
+}
+
+.d-flex .tab-content{
+  margin-left: 120px;
+}
+
+.d-flex .tab-content h3{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: inherit;
+}
+
+.d-flex .tab-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a7a7a7;
+    text-transform: inherit;
+}
+
+.Tab-section .tab-img{
+    margin-top: 150px;
+}
+
+/*****************************
+  *sub-section css start here
+  ****************************/
+
+.sub-section{
+  margin-top: 120px
+}
+
+.sub-section .sub-details{
+   
+}
+.sub-section .sub-details .line{
+    width: 80px;
+    height: 3px;
+    background: #ff9b51;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sub-section .sub-details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a7a7a7;
+    text-transform: inherit;
+    margin-right: 98px;
+}
+
+.sub-section .sub-details ul li{
+    list-style: none;
+    
+}
+.sub-section .sub-details ul li h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: inherit;
+}
+.sub-section .sub-details ul li p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a7a7a7;
+    text-transform: inherit;
+     margin-right: 98px;
+}
+
+
+
+/*****************************
+  *standerd-section css start here
+  ****************************/
+
+.standerd-section{
+    background: #f5f5f5;
+    margin-top: 70px;
+}
+
+.standerd-section .stnd-list{
+    margin-top: 80px;
+}
+
+.standerd-section .stnd-list .line{
+    width: 80px;
+    height: 3px;
+    background: #ff9b51;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.standerd-section .stnd-list h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: inherit;
+}
+
+.standerd-section .stnd-list p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a7a7a7;
+    text-transform: inherit;
+     margin-right: 98px;
+}
+
+.standerd-section .stnd-img{
+    padding-left: 150px;
+    padding-top: 60px;
+}
+/*****************************
+  *why-section css start here
+  ****************************/
+
+.why-section{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.why-section .part-1{
+  
+}
+
+.why-section .part-1 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.why-section .part-1 .line{
+    width: 80px;
+    height: 3px;
+    background: #ff9b51;
+    margin: auto;
+
+}
+
+.why-section .part-1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a7a7a7;
+    text-transform: inherit;
+    margin-top: 20px;
+}
+
+/*****************************
+  *layer-section css start here
+  ****************************/
+
+.layer-section{
+  margin-top: 75px;
+}
+
+.layer-section .img-layer{
+      margin-top: 30px;
+}
+
+.layer-section .img-layer ul li{
+   list-style: none;
+}
+
+.layer-section .img-layer ul li h3{
+  font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.layer-section .img-layer ul li p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a7a7a7;
+    text-transform: inherit;
+    margin-top: 20px;
+}
+
+/*****************************
+  *pricing-section css start here
+  ****************************/
+
+.pricing-section{
+  width: 100%;
+  padding: 80px 0px;
+  background: #f5f5f5;
+  margin-top: 100px;
+}
+
+
+.pricing-section .price-title{
+    text-align: center;
+}
+
+.pricing-section .price-title h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+.pricing-section .price-title .line{
+    width: 80px;
+    height: 3px;
+    background: #ff9b51;
+    margin: auto;
+}
+
+.pricing-section .price-title p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a7a7a7;
+    text-transform: inherit;
+    margin-top: 20px;
+}
+
+.price-table{
+  text-align: center;
+  margin-top: 60px;
+  padding:15px;
+}
+
+.price-table .p-header{
+  padding: 20px;
+  margin: 0;
+  background: #333333;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+
+}
+
+.price-table .p-header h4{
+  color: white;
+}
+
+
+.p-body{
+  padding: 22px;
+  background: #333333;
+  border-bottom: 6px solid #ff9b51;
+
+}
+
+.p-body h2{
+  font-size: 94px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+.p-body h2 span{
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.p-body p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #a7a7a7;
+    text-transform: inherit;
+    font-style: italic;
+}
+
+.p-footer{
+  background: white;
+}
+
+.p-footer ul{
+  margin: 0;
+  padding: 0;
+}
+ 
+.p-footer ul li{
+  list-style: none;
+  padding: 12px;
+  border-bottom: 1px solid #e4e4e4;
+  text-transform: uppercase;
+}
+
+.p-footer ul li:nth-child(6){
+  border-bottom: 0px !important;
+}
+
+.bnone{
+  border-bottom: 0px !important;
+}
+
+.package{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: inherit;
+    background: #ff9b51;
+    padding: 10px 0px;
+    text-transform: uppercase;  
+}
+
+/*****************************
+  *review-section css start here
+  ****************************/
+
+.review-section{
+  width: 100%;
+  padding: 80px 0px;
+  background: white;
+  margin-top: 40px;
+}
+
+.review-section .tittle{
+  text-align: center;
+}
+
+.review-section .tittle h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+}
+
+.review-section .tittle .line{
+    width: 80px;
+    height: 3px;
+    background: #ff9b51;
+    margin: auto;
+}
+
+.review-section .tittle p{ 
+    font-size: 14px;
+    font-weight: 600;
+    color: #a7a7a7;
+    text-transform: inherit;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.review-section .content{
+  position: relative;
+  background: #f5f5f5;
+  padding: 15px 10px 15px 20px;
+  margin-right: 50px;
+  margin-bottom: 35px;
+  margin-top: 20px;
+}
+
+.review-section .content p{
+    padding-right: 37px;
+    font-size: 14px;
+    color: #a7a7a7;
+    text-transform: inherit;
+    font-style: italic;
+}
+
+.review-section .arrow{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: #f5f5f5;
+  bottom: -10px;
+  transform: rotate(45deg);
+}
+
+.intro{
+  margin-top: 8px;
+}
+
+
+/*****************************
+  *stylish-section css start here
+  ****************************/
+
+.stylish-section{
+    text-align: center;
+    width: 100%;
+    background: url(../img/style.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.stylish-section .content{
+ margin-top: 70px;
+}
+
+.stylish-section .content h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.stylish-section .content .line{
+    width: 80px;
+    height: 3px;
+    background: white;
+    margin: auto;
+}
+
+.stylish-section .content p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #a7a7a7;
+    text-transform: inherit;
+    margin-top: 20px;
+}
+
+
+.stylish-section .content .btn-primary{
+  background: transparent;
+  border-radius: 0;
+  border: 2px solid white;
+  padding: 8px 30px;
+   margin-top: 25px;
+}
+
+/*****************************
+  *contact-section css start here
+  ****************************/
+
+.contact-section{
+  text-align: center;
+  background: white;
+}
+
+.contact-section .content{
+  
+}
+
+.contact-section .content h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.contact-section .content .line{
+    width: 80px;
+    height: 3px;
+    background: #ff9b51;
+    margin: auto;
+}
+
+.contact-section .content p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #a7a7a7;
+    text-transform: inherit;
+    margin-top: 20px;
+}
+
+
+.contact-section .form-list{
+  
+}
+
+.contact-section .form-list ul{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section .form-list ul li{
+    list-style: none;
+    padding: 20px;
+    border-bottom: 1px solid #e4e4e4;
+    text-transform: capitalize;
+    text-align: start;
+    color: #a7a7a7;
+}
+
+
+.contact-section .form-list2 ul li{
+    list-style: none;
+    padding: 20px;
+    border-bottom: 1px solid #e4e4e4;
+    text-transform: capitalize;
+    text-align: start;
+    color: #a7a7a7;
+}
+
+
+.contact-section .form-list2 ul li:nth-child(1){
+  border-bottom: 0px !important;
+}
+
+
+.contact-section .form-list2 ul li:nth-child(2){
+  border-bottom: 0px !important;
+}
+
+.contact-section .button-last .btn-primary{
+    justify-content: center;
+    background: #ff9b51;
+    border: 1px solid #ff9b51;
+    margin: 30px;
+    border-radius: 2px;
+}
+/*****************************
+  *footer-section css start here
+  ****************************/
+
+.footer-section{
+      width: 100%;
+     background: black;
+     margin-top: 20px;
+}
+
+.footer-section .icon-footer{
+  text-align: center;
+}
+
+.footer-section .icon-footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+    height: 114px;
+}
+
+.footer-section .icon-footer ul li i{
+  color: #a7a7a7;
+
+}
+
+.footer-section .icon-footer p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #a7a7a7;
+    text-transform: inherit;
+    margin-top: 15px;
+}
+}
